@@ -16,11 +16,9 @@ export const AddCategory = ({ setCategories }) => {
 
         if(inputValue.trim().length > 2){
             // console.log('Submit hecho.');
-            setCategories( categorias => [...categorias, inputValue]);
+            setCategories( categorias => [inputValue, ...categorias]);
     
             setInputValue('');
-        }else{
-            alert('pon alguna weá shushetumare oe sipo o te rajo el paño xdd');
         }
     }
 

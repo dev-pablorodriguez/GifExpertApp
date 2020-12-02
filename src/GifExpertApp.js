@@ -7,7 +7,7 @@ export const GifExpertApp = () => {
     // Se debe modificar el estado a través de useState. Para esto puede utilizarse this.state o hook useState
     // const categories = ['One Punch', 'Samurai X', 'Dragon Ball'];
     
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['Naruto']);
 
     // const handleAdd = () => {
     //     //Forma #1 de añadir elementos al arreglo
